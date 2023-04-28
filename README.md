@@ -1,5 +1,5 @@
 # Nextflow_analysis
-Here I create a nextflow pipeline that takes pair end reads and outputs a coordinate sorted bam and bai file.
+Here I create a nextflow pipeline that takes pair end reads and outputs a coordinate sorted bam and bai file. Look at instructions file
 
 The PE_read_pipeline.nf file contains 3 processes that take pair end (PE) reads and outputs, at the very end a coordinate sorted bam file and an index file (bai). Tools used are fastp, bwa mem, samtools, and picard.
 
